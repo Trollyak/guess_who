@@ -35,7 +35,7 @@ h1 {
 }
 
 .grid {
-  --auto-grid-min-size: 12rem;
+  --auto-grid-min-size: 11rem;
 }
 
 .grid > * {
@@ -52,7 +52,7 @@ h1 {
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-    grid-gap: 30px;
+    grid-gap: 20px;
     grid-auto-rows: 250px;
     grid-auto-flow: row dense;
   }
@@ -101,7 +101,7 @@ h1 {
   .item__details {
     position: relative;
     z-index: 1;
-    padding: 10px;
+    padding: 8px;
     color: #444;
     background: #fff;
     letter-spacing: 1px;
