@@ -46,8 +46,11 @@ d3.csv('data/data.csv').then(data=>{
             function generate(){
                 d3.select('p').remove();
                 d3.selectAll('.item').remove();
-                grid.style('--auto-grid-min-size', '').style('grid-auto-rows', '230px');
-                dataGame = d3.nest().key(d=>d.hero).rollup(d=>d[0]).entries(data).map(d=>d.value).filter(d=>d['name']==g['name']);
+                grid.style('--auto-grid-min-size', '').style('grid-auto-rows', '250px');
+                dataGame = d3.nest().key(d=>d.index).rollup(d=>d[0]).entries(data).map(d=>d.value).filter(d=>d['name']==g['name']);
+
+                console.log(d3.nest().key(d=>d.index).rollup(d=>d[0]).entries(data).map(d=>d.value));
+                
                 console.log(dataGame);
                 grid.selectAll("div[class='item']").data(dataGame).enter()
                     .append("div")
@@ -63,7 +66,7 @@ d3.csv('data/data.csv').then(data=>{
 
                 grid1.attr('class', 'grid')
                     .style("padding-bottom",'20px')
-                    .style('--auto-grid-min-size',11)
+                    .style('--auto-grid-min-size',12)
                     .style('justify-items','center');
                 grid1.append("div")
                     .attr('class', 'item__hero')
