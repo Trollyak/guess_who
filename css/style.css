@@ -37,7 +37,7 @@ p{
   margin: 0 0 1.5em;
 }
 .grid {
-  --auto-grid-min-size: 12rem;
+  --auto-grid-min-size: 11rem;
 }
 
 .grid > * {
@@ -54,8 +54,8 @@ p{
   .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-    grid-gap: 20px;
-    grid-auto-rows: 250px;
+    grid-gap: 10px;
+    grid-auto-rows: 230px;
     grid-auto-flow: row dense;
   }
   
