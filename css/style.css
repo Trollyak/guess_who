@@ -37,7 +37,7 @@ p{
   margin: 0 0 1.5em;
 }
 .grid {
-  --auto-grid-min-size: 11rem;
+  --auto-grid-min-size: 12rem;
 }
 
 .grid > * {
