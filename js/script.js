@@ -46,7 +46,7 @@ d3.csv('data/data.csv').then(data=>{
             function generate(){
                 d3.select('p').remove();
                 d3.selectAll('.item').remove();
-                grid.style('--auto-grid-min-size', '').style('grid-auto-rows', '230px');
+                grid.style('--auto-grid-min-size', '').style('grid-auto-rows', '230px').style('grid-gap', '12px');
                 dataGame = d3.nest().key(d=>d.index).rollup(d=>d[0]).entries(data).map(d=>d.value).filter(d=>d['name']==g['name']);
 
                 console.log(d3.nest().key(d=>d.index).rollup(d=>d[0]).entries(data).map(d=>d.value));
