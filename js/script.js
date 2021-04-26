@@ -32,7 +32,7 @@ function update_seed(_id) {
   return code;
 }
 function parse_code(_seed) {
-    if(!_seed.match(/^[1-9A-Z]{6}$/))
+    if(!_seed.match(/^[0-9A-Z]{6,8}$/))
         return null;
     let code = _seed.slice(0, 4), crc = _seed[4];
 
@@ -262,7 +262,7 @@ d3.csv('data/data.csv').then(data=>{
             }
             else{
                 let code = update_seed(g['index_world']);
-                
+                console.log(g['index_world']);
                 let _seed = parse_code(local_seed);
                 let seed = _seed.seed;
                 
