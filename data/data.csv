@@ -241,3 +241,222 @@ index,index_character,index_world,name,poster,hero,url,group
 240,59,1,Наруто,https://c.wallhere.com/photos/d4/f4/Naruto_Shippuuden_Uzumaki_Naruto_Jiraiya_Nara_Shikamaru_Tenten_Hatake_Kakashi_Tsunade_Hyuuga_Neji-109600.jpg!d,Ирука,https://i.ytimg.com/vi/doZWMkA5_b8/hqdefault_live.jpg,Аниме
 241,60,1,Наруто,https://c.wallhere.com/photos/d4/f4/Naruto_Shippuuden_Uzumaki_Naruto_Jiraiya_Nara_Shikamaru_Tenten_Hatake_Kakashi_Tsunade_Hyuuga_Neji-109600.jpg!d,Обито,https://pm1.narvii.com/7433/952b5f679e4cfe059fb30bf9b16aa4877a1aca6er1-1125-842v2_hq.jpg,Аниме
 242,61,1,Наруто,https://c.wallhere.com/photos/d4/f4/Naruto_Shippuuden_Uzumaki_Naruto_Jiraiya_Nara_Shikamaru_Tenten_Hatake_Kakashi_Tsunade_Hyuuga_Neji-109600.jpg!d,Рин,https://i.pinimg.com/originals/79/39/67/7939676b4cd1253c6993d07ef26b284c.jpg,Аниме
+243,46,8,Атака титанов,https://github.com/yupest/guess_who/blob/main/data/aot.jpg?raw=true,Марко,https://64.media.tumblr.com/93a01859f3814954cd2bb344e1a7a340/6ef3a8d090a5b3e7-92/s540x810/9253fd2b43d9aa0c4a4b71f6f97ca4c1f78e4d8e.gifv,Аниме
+244,1,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Агата Харкнесс (Агнес),https://fanfics.me/images/fandoms_heroes/14-1618590413.jpg,Кино
+245,2,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Анна Мария (Шельма),https://fanfics.me/images/fandoms_heroes/1045-1598185824.jpg,Кино
+246,3,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Артур Дуглас (Дракс Разрушитель),https://fanfics.me/images/fandoms_heroes/711-1491175078.jpg,Кино
+247,4,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Брюс Беннер (Халк),https://fanfics.me/images/fandoms_heroes/14-1448384793.jpg,Кино
+248,5,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Ванда Максимофф (Алая Ведьма),https://fanfics.me/images/fandoms_heroes/14-1448449593.jpg,Кино
+249,6,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Вижен (Виктор Шейд),https://fanfics.me/images/fandoms_heroes/14-1448384618.jpg,Кино
+250,7,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Гамора,https://fanfics.me/images/fandoms_heroes/711-1495545552.jpg,Кино
+251,8,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Грут,https://fanfics.me/images/fandoms_heroes/711-1491175080.jpg,Кино
+252,9,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Джеймс Роудс (Воитель),https://fanfics.me/images/fandoms_heroes/14-1448440863.jpg,Кино
+253,10,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Джеймс Хоулет (Росомаха),https://fanfics.me/images/fandoms_heroes/21-1447607898.jpg,Кино
+254,11,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Джессика Джонс (Сокровище),https://fanfics.me/images/fandoms_heroes/304-1453405856.jpg,Кино
+255,12,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Джин Грей (Чудо-девушка),https://fanfics.me/images/fandoms_heroes/21-1508825293.jpg,Кино
+256,13,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Икс-23 (Лора Кинни),https://fanfics.me/images/fandoms_heroes/21-1508830342.jpg,Кино
+257,14,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Китти Прайд (Химера),https://fanfics.me/images/fandoms_heroes/1046-1598639620.jpg,Кино
+258,15,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Клинт Бартон (Хоукай),https://fanfics.me/images/fandoms_heroes/14-1542004680.jpg,Кино
+259,16,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Курт Вагнер (Ночной змей),https://fanfics.me/images/fandoms_heroes/21-1508830716.jpg,Кино
+260,17,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Кэрол Дэнверс (Капитан Марвел),https://fanfics.me/images/fandoms_heroes/711-1491175077.jpg,Кино
+261,18,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Локи Лафейсон,https://fanfics.me/images/fandoms_heroes/14-1448384701.jpg,Кино
+262,19,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Люк Кейдж (Силач),https://fanfics.me/images/fandoms_heroes/304-1453405857.jpg,Кино
+263,20,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Мантис (Богомол),https://fanfics.me/images/fandoms_heroes/711-1495475008.jpg,Кино
+264,21,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Мария Хилл,https://fanfics.me/images/fandoms_heroes/14-1448384710.jpg,Кино
+265,22,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Мэтт Мердок (Сорвиголова),https://fanfics.me/images/fandoms_heroes/583-1477686622.jpg,Кино
+266,23,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Наташа Романофф (Черная Вдова),https://fanfics.me/images/fandoms_heroes/14-1448384720.jpg,Кино
+267,24,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Небула,https://fanfics.me/images/fandoms_heroes/711-1491175113.jpg,Кино
+268,25,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Николас Фьюри (Ник),https://fanfics.me/images/fandoms_heroes/14-1448384785.jpg,Кино
+269,26,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Ороро Монро (Шторм),https://fanfics.me/images/fandoms_heroes/21-1508826537.jpg,Кино
+270,27,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Питер Квилл (Звёздный Лорд),https://fanfics.me/images/fandoms_heroes/711-1491175083.jpg,Кино
+271,28,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Питер Паркер (Человек-паук),https://fanfics.me/images/fandoms_heroes/422-1460222545.jpg,Кино
+272,29,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Пьетро Максимофф (Ртуть),https://fanfics.me/images/fandoms_heroes/14-1448449658.jpg,Кино
+273,30,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Ракета (Реактивный Енот),https://fanfics.me/images/fandoms_heroes/711-1491175082.jpg,Кино
+274,31,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Рейвен Даркхольм (Мистик),https://fanfics.me/images/fandoms_heroes/21-1508827184.jpg,Кино
+275,32,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Скотт Лэнг (Человек-муравей II),https://fanfics.me/images/fandoms_heroes/14-1530818805.jpg,Кино
+276,33,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Скотт Саммерс (Циклоп),https://fanfics.me/images/fandoms_heroes/21-1508827671.jpg,Кино
+277,34,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Стивен Роджерс (Капитан Америка),https://fanfics.me/images/fandoms_heroes/14-1448384801.jpg,Кино
+278,35,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Стивен Стрэндж (Доктор Стрэндж),https://fanfics.me/images/fandoms_heroes/14-1534248242.jpg,Кино
+279,36,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Т'Чалла (Чёрная Пантера),https://fanfics.me/images/fandoms_heroes/14-1527752564.jpg,Кино
+280,37,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Танос,https://fanfics.me/images/fandoms_heroes/14-1588182906.jpg,Кино
+281,38,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Тони Старк (Железный человек),https://fanfics.me/images/fandoms_heroes/14-1448384811.jpg,Кино
+282,39,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Тор Одинсон,https://fanfics.me/images/fandoms_heroes/14-1448384867.jpg,Кино
+283,40,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Уэйд Уилсон (Дэдпул),https://fanfics.me/images/fandoms_heroes/21-1508822650.jpg,Кино
+284,41,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Филлип Коулсон (Колсон),https://fanfics.me/images/fandoms_heroes/14-1448384877.jpg,Кино
+285,42,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Фрэнк Касл (Каратель),https://fanfics.me/images/fandoms_heroes/583-1477686627.jpg,Кино
+286,43,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Хэнк Маккой (Зверь),https://fanfics.me/images/fandoms_heroes/21-1508828180.jpg,Кино
+287,44,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Чарльз Ксавьер (Профессор Икс),https://fanfics.me/images/fandoms_heroes/21-1508826869.jpg,Кино
+288,45,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Электра Начиос,https://fanfics.me/images/fandoms_heroes/583-1477686628.jpg,Кино
+289,46,9,Марвел,https://poster4.me/wp-content/uploads/2020/01/img_1554.jpeg,Эрик Леншерр (Магнето),https://fanfics.me/images/fandoms_heroes/21-1508828614.jpg,Кино
+290,1,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Азог Осквернитель,https://fanfics.me/images/fandoms_heroes/25-1513005591.jpg,Кино
+291,2,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Альфрид,https://fanfics.me/images/fandoms_heroes/25-1513005851.jpg,Кино
+292,3,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Баин,https://fanfics.me/images/fandoms_heroes/25-1515243884.jpg,Кино
+293,4,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Балин,https://fanfics.me/images/fandoms_heroes/25-1513006158.jpg,Кино
+294,5,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Бард Лучник,https://fanfics.me/images/fandoms_heroes/25-1513186032.jpg,Кино
+295,6,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Беорн,https://fanfics.me/images/fandoms_heroes/25-1522831396.jpg,Кино
+296,7,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Берт,https://fanfics.me/images/fandoms_heroes/25-1513186173.jpg,Кино
+297,8,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Бифур,https://fanfics.me/images/fandoms_heroes/25-1513186386.jpg,Кино
+298,9,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Больг,https://fanfics.me/images/fandoms_heroes/25-1513186491.jpg,Кино
+299,10,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Бомбур,https://fanfics.me/images/fandoms_heroes/25-1513186763.jpg,Кино
+300,11,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Бофур,https://fanfics.me/images/fandoms_heroes/25-1513186953.jpg,Кино
+301,12,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Бургомистр,https://fanfics.me/images/fandoms_heroes/25-1513187082.jpg,Кино
+302,13,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Верховный Гоблин,https://fanfics.me/images/fandoms_heroes/25-1513187616.jpg,Кино
+303,14,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Глоин,https://fanfics.me/images/fandoms_heroes/25-1513187971.jpg,Кино
+304,15,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Даин II Железностоп,https://fanfics.me/images/fandoms_heroes/25-1513188222.jpg,Кино
+305,16,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Двалин,https://fanfics.me/images/fandoms_heroes/25-1514590896.jpg,Кино
+306,17,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Дори,https://fanfics.me/images/fandoms_heroes/25-1514591138.jpg,Кино
+307,18,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Кили,https://fanfics.me/images/fandoms_heroes/25-1514591837.jpg,Кино
+308,19,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Нори,https://fanfics.me/images/fandoms_heroes/25-1514592027.jpg,Кино
+309,20,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Оин,https://fanfics.me/images/fandoms_heroes/25-1514592240.jpg,Кино
+310,21,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Олень Трандуила,https://fanfics.me/images/fandoms_heroes/25-1514592389.jpg,Кино
+311,22,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Ори,https://fanfics.me/images/fandoms_heroes/25-1515240475.jpg,Кино
+312,23,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Сигрид,https://fanfics.me/images/fandoms_heroes/25-1515240716.jpg,Кино
+313,24,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Смауг Золотой,https://fanfics.me/images/fandoms_heroes/25-1515241174.jpg,Кино
+314,25,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Тауриэль,https://fanfics.me/images/fandoms_heroes/25-1515241592.jpg,Кино
+315,26,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Тильда,https://fanfics.me/images/fandoms_heroes/25-1515241768.jpg,Кино
+316,27,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Том,https://fanfics.me/images/fandoms_heroes/25-1515241850.jpg,Кино
+317,28,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Торин Дубощит,https://fanfics.me/images/fandoms_heroes/25-1515242273.jpg,Кино
+318,29,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Траин II,https://fanfics.me/images/fandoms_heroes/25-1515242881.jpg,Кино
+319,30,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Трор,https://fanfics.me/images/fandoms_heroes/25-1515243086.jpg,Кино
+320,31,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Уилльям (Билл),https://fanfics.me/images/fandoms_heroes/25-1513186279.jpg,Кино
+321,32,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Фили,https://fanfics.me/images/fandoms_heroes/25-1514591629.jpg,Кино
+322,33,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Язнег,https://fanfics.me/images/fandoms_heroes/25-1514591266.jpg,Кино
+323,34,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Арагорн II (Элессар),https://fanfics.me/images/fandoms_heroes/25-1515245726.jpg,Кино
+324,35,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Арвен (Ундомиэль),https://fanfics.me/images/fandoms_heroes/25-1522829939.jpg,Кино
+325,36,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Боромир,https://fanfics.me/images/fandoms_heroes/25-1544996386.jpg,Кино
+326,37,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Гамлинг,https://fanfics.me/images/fandoms_heroes/25-1545599883.jpg,Кино
+327,38,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Ган-Бури-Ган (Гхан-бури-Гхан),https://fanfics.me/images/fandoms_heroes/25-1545599995.jpg,Кино
+328,39,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Древоброд (Фангорн),https://fanfics.me/images/fandoms_heroes/1477-1551814965.jpg,Кино
+329,40,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Дэнетор II,https://fanfics.me/images/fandoms_heroes/25-1545608782.jpg,Кино
+330,41,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Иорет,https://fanfics.me/images/fandoms_heroes/25-1545609462.jpg,Кино
+331,42,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Исильдур,https://fanfics.me/images/fandoms_heroes/25-1545610510.jpg,Кино
+332,43,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Кольцо Всевластья,https://fanfics.me/images/fandoms_heroes/25-1545611050.jpg,Кино
+333,44,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Король Мёртвых,https://fanfics.me/images/fandoms_heroes/25-1545611375.jpg,Кино
+334,45,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Король-чародей Ангмара (Ангмарский Чародей),https://fanfics.me/images/fandoms_heroes/25-1545611759.jpg,Кино
+335,46,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Луртц,https://fanfics.me/images/fandoms_heroes/25-1545613037.jpg,Кино
+336,47,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Малбет Провидец,https://fanfics.me/images/fandoms_heroes/25-1551131385.jpg,Кино
+337,48,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Мериадок Брендибак (Мерри),https://fanfics.me/images/fandoms_heroes/25-1551132199.jpg,Кино
+338,49,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Назгул,https://fanfics.me/images/fandoms_heroes/25-1551133666.jpg,Кино
+339,50,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Орофин,https://fanfics.me/images/fandoms_heroes/25-1551136401.jpg,Кино
+340,51,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Перегрин Тук (Пиппин),https://fanfics.me/images/fandoms_heroes/25-1551207955.jpg,Кино
+341,52,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Проклятье Дурина,https://fanfics.me/images/fandoms_heroes/25-1522830245.jpg,Кино
+342,53,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Рози Гэмджи (Рози Коттон),https://fanfics.me/images/fandoms_heroes/25-1551208765.jpg,Кино
+343,54,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Румиль,https://fanfics.me/images/fandoms_heroes/25-1551136572.jpg,Кино
+344,55,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Сэмуайз Гэмджи (Сэм),https://fanfics.me/images/fandoms_heroes/25-1551304744.jpg,Кино
+345,56,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Теоден,https://fanfics.me/images/fandoms_heroes/25-1551309382.jpg,Кино
+346,57,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Том Бомбадил,https://fanfics.me/images/fandoms_heroes/25-1551309682.jpg,Кино
+347,58,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Углук (Углюк),https://fanfics.me/images/fandoms_heroes/25-1545613182.jpg,Кино
+348,59,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Фарамир,https://fanfics.me/images/fandoms_heroes/1423-1551815114.jpg,Кино
+349,60,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Халдир (эльф),https://fanfics.me/images/fandoms_heroes/1481-1580560376.jpg,Кино
+350,61,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Элендиль (Элендил),https://fanfics.me/images/fandoms_heroes/1489-1583803824.jpg,Кино
+351,62,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Эовин,https://fanfics.me/images/fandoms_heroes/1425-1583804413.jpg,Кино
+352,63,10,Средиземье,https://i.pinimg.com/originals/ba/d5/b8/bad5b8acf967bf5abdb50005500e66a6.jpg,Эомер,https://fanfics.me/images/fandoms_heroes/1426-1583804550.jpg,Кино
+353,1,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Артур Карри (Аквамен),https://fanfics.me/images/fandoms_heroes/125-1513751292.jpg,Кино
+354,2,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Барри Аллен (Флэш),https://fanfics.me/images/fandoms_heroes/125-1511869941.jpg,Кино
+355,3,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Брюс Уэйн (Бэтмен),https://fanfics.me/images/fandoms_heroes/377-1460441471.jpg,Кино
+356,4,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Виктор Стоун (Киборг),https://fanfics.me/images/fandoms_heroes/125-1513752000.jpg,Кино
+357,5,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Дж’онн Дж’онзз (Марсианский Охотник),https://fanfics.me/images/fandoms_heroes/125-1512652909.jpg,Кино
+358,6,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Диана (Чудо-женщина),https://fanfics.me/images/fandoms_heroes/125-1513750539.jpg,Кино
+359,7,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Затанна Затара,https://fanfics.me/images/fandoms_heroes/125-1518096676.jpg,Кино
+360,8,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Картер Холл (Человек-ястреб),https://fanfics.me/images/fandoms_heroes/125-1513757808.jpg,Кино
+361,9,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Кларк Кент (Супермен),https://fanfics.me/images/fandoms_heroes/125-1511939820.jpg,Кино
+362,10,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Лорел Лэнс (Черная Канарейка),https://fanfics.me/images/fandoms_heroes/125-1513757969.jpg,Кино
+363,11,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Мари Джуи МакКэйб (Лисица),https://fanfics.me/images/fandoms_heroes/125-1513755511.jpg,Кино
+364,12,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Оливер Куин (Зелёная Стрела),https://fanfics.me/images/fandoms_heroes/125-1511874303.jpg,Кино
+365,13,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Орлица (Кендра Сандерс),https://fanfics.me/images/fandoms_heroes/125-1513756972.jpg,Кино
+366,14,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Ральф Дибни (Удлиняющийся Человек),https://fanfics.me/images/fandoms_heroes/125-1513755104.jpg,Кино
+367,15,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Рэй Палмер (Атом ),https://fanfics.me/images/fandoms_heroes/125-1511940599.jpg,Кино
+368,16,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Хэл Джордан (Зелёный Фонарь),https://fanfics.me/images/fandoms_heroes/125-1513753846.jpg,Кино
+369,17,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Барбара Гордон (Бэтгёрл),https://fanfics.me/images/fandoms_heroes/125-1513762112.jpg,Кино
+370,18,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Бэйн,https://fanfics.me/images/fandoms_heroes/125-1513838573.jpg,Кино
+371,19,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Виктор Фрайс (Мистер Фриз),https://fanfics.me/images/fandoms_heroes/125-1513762185.jpg,Кино
+372,20,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Гарфилд Линнс (Светлячок),https://fanfics.me/images/fandoms_heroes/125-1492791039.jpg,Кино
+373,21,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Джейсон Тодд (Робин II),https://fanfics.me/images/fandoms_heroes/125-1513762533.jpg,Кино
+374,22,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Джокер,https://fanfics.me/images/fandoms_heroes/125-1512583503.jpg,Кино
+375,23,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Джонатан Крейн (Пугало),https://fanfics.me/images/fandoms_heroes/125-1513762726.jpg,Кино
+376,24,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Дэмиен Уэйн (Робин I),https://fanfics.me/images/fandoms_heroes/125-1537785196.jpg,Кино
+377,25,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Кассандра Кейн (Блэкбэт),https://fanfics.me/images/fandoms_heroes/125-1513762602.jpg,Кино
+378,26,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Памела Айли (Ядовитый Плющ),https://fanfics.me/images/fandoms_heroes/125-1513763128.jpg,Кино
+379,27,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Ричард Грейсон (Найтвинг),https://fanfics.me/images/fandoms_heroes/125-1513060263.jpg,Кино
+380,28,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Роман Сионис (Чёрная Маска),https://fanfics.me/images/fandoms_heroes/125-1513836669.jpg,Кино
+381,29,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Талия аль Гуль,https://fanfics.me/images/fandoms_heroes/125-1513837474.jpg,Кино
+382,30,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Тимоти Дрейк (Красный Робин),https://fanfics.me/images/fandoms_heroes/125-1513837533.jpg,Кино
+383,31,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Харви Дент (Двуликий),https://fanfics.me/images/fandoms_heroes/125-1513762976.jpg,Кино
+384,32,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Харли Квинн (Харлин Квинзель),https://fanfics.me/images/fandoms_heroes/125-1513060514.jpg,Кино
+385,33,11,Лига справедливости,https://pbs.twimg.com/media/DNeAJk1X4Agz847.jpg:large,Эдвард Нештон (Загадочник),https://fanfics.me/images/fandoms_heroes/125-1513762890.jpg,Кино
+386,1,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Алек Вольтури,https://fanfics.me/images/fandoms_heroes/505-1572301736.jpg,Кино
+387,2,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Аро Вольтури,https://fanfics.me/images/fandoms_heroes/509-1572302555.jpg,Кино
+388,3,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Бенджамин,https://fanfics.me/images/fandoms_heroes/510-1572303890.jpg,Кино
+389,4,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Бри Таннер,https://fanfics.me/images/fandoms_heroes/512-1572304818.jpg,Кино
+390,5,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Виктория,https://fanfics.me/images/fandoms_heroes/513-1572305533.jpg,Кино
+391,6,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Владимир,https://fanfics.me/images/fandoms_heroes/514-1572305662.jpg,Кино
+392,7,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Гарретт Денали,https://fanfics.me/images/fandoms_heroes/515-1572305789.jpg,Кино
+393,8,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Деметрий Вольтури,https://fanfics.me/images/fandoms_heroes/516-1572305930.jpg,Кино
+394,9,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Джаред Кэмерон,https://fanfics.me/images/fandoms_heroes/517-1572306095.jpg,Кино
+395,10,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Джаспер Хейл (Джаспер Уитлок),https://fanfics.me/images/fandoms_heroes/501-1572306252.jpg,Кино
+396,11,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Джейкоб Блэк,https://fanfics.me/images/fandoms_heroes/494-1572306419.jpg,Кино
+397,12,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Джейн Вольтури,https://fanfics.me/images/fandoms_heroes/519-1572306711.jpg,Кино
+398,13,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Изабелла Свон (Белла),https://fanfics.me/images/fandoms_heroes/492-1572302809.jpg,Кино
+399,14,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Кайус Вольтури (Кай),https://fanfics.me/images/fandoms_heroes/526-1572307670.jpg,Кино
+400,15,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Карлайл Каллен,https://fanfics.me/images/fandoms_heroes/495-1572308016.jpg,Кино
+401,16,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Квил Атеара V,https://fanfics.me/images/fandoms_heroes/529-1572308405.jpg,Кино
+402,17,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Ли Клируотер (Лея),https://fanfics.me/images/fandoms_heroes/533-1572322402.jpg,Кино
+403,18,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Лоран,https://fanfics.me/images/fandoms_heroes/534-1572323522.jpg,Кино
+404,19,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Маркус Вольтури (Марк),https://fanfics.me/images/fandoms_heroes/538-1572323968.jpg,Кино
+405,20,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Пол Лэйхот,https://fanfics.me/images/fandoms_heroes/541-1572351125.jpg,Кино
+406,21,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Ренесми Каллен,https://fanfics.me/images/fandoms_heroes/503-1572352461.jpg,Кино
+407,22,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Розали Хейл,https://fanfics.me/images/fandoms_heroes/500-1572352654.jpg,Кино
+408,23,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Сет Клируотер,https://fanfics.me/images/fandoms_heroes/548-1572521308.jpg,Кино
+409,24,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Феликс Вольтури,https://fanfics.me/images/fandoms_heroes/556-1572545321.jpg,Кино
+410,25,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Хайди Вольтури,https://fanfics.me/images/fandoms_heroes/558-1572545534.jpg,Кино
+411,26,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Чарли Свон,https://fanfics.me/images/fandoms_heroes/504-1572545638.jpg,Кино
+412,27,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Эдвард Каллен,https://fanfics.me/images/fandoms_heroes/493-1572546243.jpg,Кино
+413,28,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Элис Каллен,https://fanfics.me/images/fandoms_heroes/502-1572350458.jpg,Кино
+414,29,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Эмметт Каллен,https://fanfics.me/images/fandoms_heroes/499-1572550281.jpg,Кино
+415,30,12,Сумерки,https://64.media.tumblr.com/tumblr_mc3b6j1zoc1qkhstfo1_500.png,Эсми Каллен,https://fanfics.me/images/fandoms_heroes/498-1572550491.jpg,Кино
+416,1,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Агент Паурс,https://fanfics.me/images/fandoms_heroes/98-1493457899.jpg,Мультфильмы
+417,2,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Агент Триггер,https://fanfics.me/images/fandoms_heroes/98-1493457950.jpg,Мультфильмы
+418,3,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Батс Байкер,https://fanfics.me/images/fandoms_heroes/98-1493458036.jpg,Мультфильмы
+419,4,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Билл Шифр,https://fanfics.me/images/fandoms_heroes/98-1493458098.jpg,Мультфильмы
+420,5,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Блендин,https://fanfics.me/images/fandoms_heroes/98-1493458157.jpg,Мультфильмы
+421,6,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Бобби Рензобби,https://fanfics.me/images/fandoms_heroes/98-1493460176.jpg,Мультфильмы
+422,7,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Боби Блапс,https://fanfics.me/images/fandoms_heroes/98-1493458361.jpg,Мультфильмы
+423,8,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Брат Венди,https://fanfics.me/images/fandoms_heroes/98-1493458428.jpg,Мультфильмы
+424,9,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Венди Кордрой,https://fanfics.me/images/fandoms_heroes/98-1493457611.jpg,Мультфильмы
+425,10,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Гарри Глинка,https://fanfics.me/images/fandoms_heroes/98-1493458895.jpg,Мультфильмы
+426,11,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Гейб Бэнсен,https://fanfics.me/images/fandoms_heroes/98-1493458883.jpg,Мультфильмы
+427,12,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Гидеон Глифул,https://fanfics.me/images/fandoms_heroes/98-1493458938.jpg,Мультфильмы
+428,13,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Гиффани,https://fanfics.me/images/fandoms_heroes/98-1493458993.jpg,Мультфильмы
+429,14,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Горни,https://fanfics.me/images/fandoms_heroes/98-1493459185.jpg,Мультфильмы
+430,15,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Гренда Грендинатор,https://fanfics.me/images/fandoms_heroes/98-1493459214.jpg,Мультфильмы
+431,16,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Джейдан Нэйт,https://fanfics.me/images/fandoms_heroes/98-1493459970.jpg,Мультфильмы
+432,17,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Джимми,https://fanfics.me/images/fandoms_heroes/98-1493460005.jpg,Мультфильмы
+433,18,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Диппер Пайнс,https://fanfics.me/images/fandoms_heroes/98-1493457659.jpg,Мультфильмы
+434,19,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Дьюс,https://fanfics.me/images/fandoms_heroes/98-1493460293.jpg,Мультфильмы
+435,20,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Жан-Люк,https://fanfics.me/images/fandoms_heroes/98-1493461056.jpg,Мультфильмы
+436,21,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Зус Рамирез,https://fanfics.me/images/fandoms_heroes/98-1493457690.jpg,Мультфильмы
+437,22,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Кэнди Чиу,https://fanfics.me/images/fandoms_heroes/98-1493460624.jpg,Мультфильмы
+438,23,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Майки Р,https://fanfics.me/images/fandoms_heroes/98-1493461164.jpg,Мультфильмы
+439,24,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Мелоди,https://fanfics.me/images/fandoms_heroes/98-1493462145.jpg,Мультфильмы
+440,25,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Мередит,https://fanfics.me/images/fandoms_heroes/98-1493461711.jpg,Мультфильмы
+441,26,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Мэйбл Пайнс,https://fanfics.me/images/fandoms_heroes/98-1493457734.jpg,Мультфильмы
+442,27,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Натаниэль Нортвест,https://fanfics.me/images/fandoms_heroes/98-1493460438.jpg,Мультфильмы
+443,28,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Пасифика Нортвест,https://fanfics.me/images/fandoms_heroes/98-1493459684.jpg,Мультфильмы
+444,29,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Полли,https://fanfics.me/images/fandoms_heroes/98-1493459750.jpg,Мультфильмы
+445,30,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Престон Нортвест,https://fanfics.me/images/fandoms_heroes/98-1493459788.jpg,Мультфильмы
+446,31,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Присцилла Нортвест,https://fanfics.me/images/fandoms_heroes/98-1493459873.jpg,Мультфильмы
+447,32,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Пухля,https://fanfics.me/images/fandoms_heroes/98-1493459493.jpg,Мультфильмы
+448,33,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Роберт «Робби» Валентино,https://fanfics.me/images/fandoms_heroes/98-1493459532.jpg,Мультфильмы
+449,34,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Русалдо,https://fanfics.me/images/fandoms_heroes/98-1493459445.jpg,Мультфильмы
+450,35,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Селестабелль-а-беттабелль,https://fanfics.me/images/fandoms_heroes/98-1493459332.jpg,Мультфильмы
+451,36,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Слепой Глазго,https://fanfics.me/images/fandoms_heroes/98-1493459362.jpg,Мультфильмы
+452,37,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Старик МакГаккет,https://fanfics.me/images/fandoms_heroes/98-1493459288.jpg,Мультфильмы
+453,38,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Стенли Пайнс,https://fanfics.me/images/fandoms_heroes/98-1493457839.jpg,Мультфильмы
+454,39,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Стэнфорд Пайнс,https://fanfics.me/images/fandoms_heroes/98-1493459249.jpg,Мультфильмы
+455,40,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Сью,https://fanfics.me/images/fandoms_heroes/98-1493460950.jpg,Мультфильмы
+456,41,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Тайлер Кьютбайкер,https://fanfics.me/images/fandoms_heroes/98-1493460742.jpg,Мультфильмы
+457,42,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Томсон Лэркинс,https://fanfics.me/images/fandoms_heroes/98-1493460671.jpg,Мультфильмы
+458,43,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Тэд Стрэндж,https://fanfics.me/images/fandoms_heroes/98-1493461370.jpg,Мультфильмы
+459,44,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Тэмбри Ривера,https://fanfics.me/images/fandoms_heroes/98-1493461324.jpg,Мультфильмы
+460,45,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Хэнк,https://fanfics.me/images/fandoms_heroes/98-1493461808.jpg,Мультфильмы
+461,46,13,Гравити Фолз,https://i.pinimg.com/564x/5f/1c/25/5f1c25e433fdf5ee0a1f113bc117a146.jpg,Эдвин Дурланд,https://fanfics.me/images/fandoms_heroes/98-1493461647.jpg,Мультфильмы
