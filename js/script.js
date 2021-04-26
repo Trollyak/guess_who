@@ -76,17 +76,17 @@ d3.csv('data/data.csv').then(data=>{
         const name = results[1];
         console.log('data: '+data)
 
-        d3.select('span').append('i').attr('class', 'fa fa-arrow-left');
-        d3.select('span[name="game"]').text(" (" + name+")");
-        d3.select('h1').on('click', function(){
-            document.location.href = document.location.origin+document.location.pathname;
-        });
-
+        d3.select('i[class="fa fa-arrow-left"]').remove();
         d3.select('p').remove();
         d3.selectAll('.item').remove();
         d3.select('div[class="copy-url"]').remove();
         d3.select('.item__hero').remove();
 
+        d3.select('span').append('i').attr('class', 'fa fa-arrow-left');
+        d3.select('span[name="game"]').text(" (" + name+")");
+        d3.select('h1').on('click', function(){
+            document.location.href = document.location.origin+document.location.pathname;
+        });
         let grid = d3.select('#game.grid');
         let grid1 = d3.select('#hero');
 
