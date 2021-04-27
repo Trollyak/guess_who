@@ -110,9 +110,11 @@ d3.csv('data/data.csv').then(data=>{
         grid.selectAll("div[class='item']").data(data).enter()
             .append("div")
             .attr('class', 'item')
-            .style('background', d => "url("+ d['url']+")")
             .style('background-size', 'cover')
             .style('background-position', "top")
+            .style('background-image', d => "url("+ d['url']+")")
+            // .append('img')
+            // .attr('src', d => d['url'])
             .on('click', click);
 
         grid.selectAll("div")
@@ -127,9 +129,10 @@ d3.csv('data/data.csv').then(data=>{
 
         grid1.append("div")
             .attr('class', 'item__hero')
-            .style('background', 'url("https://yt3.ggpht.com/a/AATXAJxyWtLO7QfARavzu816l7ooofWWESYSgSfZAD2w=s900-c-k-c0xffffffff-no-rj-mo")')
             .style('background-size', 'cover')
+            .style('background-repeat', 'no-repeat')
             .style('background-position', "top")
+            .style('background-image', 'url("https://yt3.ggpht.com/a/AATXAJxyWtLO7QfARavzu816l7ooofWWESYSgSfZAD2w=s900-c-k-c0xffffffff-no-rj-mo")')
             .style('width','236px');
          
         d3.selectAll('div[class="item"]')
@@ -158,7 +161,7 @@ d3.csv('data/data.csv').then(data=>{
                 d3.select('#hero.grid').select('.item__who')
                     .text(d3.select(this).select('.item__details').text());
                 d3.select('#hero.grid').select('.item__hero')
-                    .style('background', d3.select(this).style('background'));
+                    .style('background-image', d3.select(this).style('background-image'));
                 d3.selectAll("div[game='"+name+"']").selectAll('div[class="item"]')
                     .style('opacity','1')
                     .on('mouseout', '');
