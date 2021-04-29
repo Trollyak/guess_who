@@ -132,8 +132,8 @@ d3.csv('data/data.csv').then(data=>{
             .style('background-size', 'cover')
             .style('background-repeat', 'no-repeat')
             .style('background-position', "top")
-            .style('background-image', 'url("https://yt3.ggpht.com/a/AATXAJxyWtLO7QfARavzu816l7ooofWWESYSgSfZAD2w=s900-c-k-c0xffffffff-no-rj-mo")')
-            .style('width','236px');
+            .style('background-image', 'url("data/favicon.png")')
+            .style('width','230px');
          
         d3.selectAll('div[class="item"]')
             .style('opacity', function(){
@@ -154,6 +154,7 @@ d3.csv('data/data.csv').then(data=>{
             if (d3.select('#hero.grid').text() == ''){  
                 d3.select('#hero').select("div").append("i")
                 .attr('class', 'fa fa-refresh refresh fa-3x fa-fw')
+                .style('color', '#2c2c2c')
                 .on('click', refresh);
                 grid1.select("div").append("div")
                 .attr('class', 'item__who'); 
@@ -170,7 +171,7 @@ d3.csv('data/data.csv').then(data=>{
             else{
             d3.select(this)
                 .style('background', function (back){
-                    if (d3.select(this).style('background-color') == "rgb(0, 0, 0)") { return 'url('+ d['url'] +')'; } else { return '#000'; }
+                    if (d3.select(this).style('background-color') == "rgb(44, 44, 44)") { return 'url('+ d['url'] +')'; } else { return '#2c2c2c'; }
                 })
                 .style('background-size', 'cover')
                 .style('background-position', "top");
@@ -178,8 +179,7 @@ d3.csv('data/data.csv').then(data=>{
             let c = 0
             d3.selectAll('.item')
                 .each(function (d, i) {
-
-                    if (d3.select(this).style('background-color') == "rgb(0, 0, 0)") {
+                    if (d3.select(this).style('background-color') == "rgb(44, 44, 44)") {
                       c+=1; 
                     }
                 });
