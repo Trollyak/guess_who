@@ -81,23 +81,41 @@ d3.csv('data/data.csv').then(data=>{
         d3.selectAll('.item').remove();
         d3.select('div[class="copy-url"]').remove();
         d3.select('.item__hero').remove();
+        d3.select('.refresh-game').remove();
 
-        d3.select('span').append('i').attr('class', 'fa fa-arrow-left');
-        d3.select('span[name="game"]').text(" (" + name+")");
-        d3.select('h1').on('click', function(){
+        d3.select('span').append('i').attr('class', 'fa fa-arrow-left').on('click', function(){
             document.location.href = document.location.origin+document.location.pathname;
         });
+        d3.select('span[name="game"]').text(" (" + name+")").datum(data[0]['index_world'])
+            .append("i")
+            .attr('class', 'fa fa-refresh refresh-game fa-fw')
+            .style('color', '#2c2c2c')
+            .on('click', refresh_game);
+        d3.select("i[class='fa fa-refresh refresh-game fa-fw']")
+                .append("span")
+                .attr('class', 'tooltiptext')
+                .text('Обновить игру. Если база мира больше 24 персонажей, произойдет подбор новых.');
+        d3.select('h1')
         let grid = d3.select('#game.grid');
         let grid1 = d3.select('#hero');
 
         grid.attr('game', name).attr('person', '');
         grid.style('--auto-grid-min-size', '').style('grid-auto-rows', '230px').style('grid-gap', '12px');
+        
+        // d3.select("div[class='share-url]").datum(data[0]['index_world'])
+        //     .append("i")
+        //     .attr('class', 'fa fa-refresh refresh fa-3x fa-fw')
+        //     .style('color', '#2c2c2c')
+        //     .on('click', refresh_game);
+
+
         d3.select("div[class='share-url']").append('div')
             .attr('class', 'copy-url')
             .append('input')
             .attr('type', 'text')
             .attr('class',"share-link")
             .attr('value', href);
+
         d3.select('div[class="copy-url"]')
             .on('click', function(){
                 document.querySelector('.share-link').focus()
@@ -107,6 +125,8 @@ d3.csv('data/data.csv').then(data=>{
             .append('span')
             .attr('class', 'copy-link')
             .text(' Поделиться');
+
+
         grid.selectAll("div[class='item']").data(data).enter()
             .append("div")
             .attr('class', 'item')
@@ -117,10 +137,18 @@ d3.csv('data/data.csv').then(data=>{
             // .attr('src', d => d['url'])
             .on('click', click);
 
+        // if (name == 'One piece'){
+        //     grid.selectAll("div[class='item']")
+        //         .append("span")
+        //         .attr('class', 'tooltiptext')
+        //         .text(d => d['description']);
+        // };
         grid.selectAll("div")
             .append("div")
             .attr('class', 'item__details item__count')
             .text(d => d['hero']);
+        
+
 
         grid1.attr('class', 'grid')
             .style("padding-bottom",'10px')
@@ -193,6 +221,18 @@ d3.csv('data/data.csv').then(data=>{
             let game = parse_code(hash);
             let results = prepare_game(game);
             start_game(results, document.location.href);
+        }; 
+
+        function refresh_game(g){
+            let code = update_seed(g);
+            console.log(g);
+            let _seed = parse_code(local_seed);
+            let seed = _seed.seed;
+            
+            let results = prepare_game(_seed);
+            
+            document.location.href = document.location.origin+document.location.pathname+'#'+code;
+            start_game(results, document.location.href, results[1])
         }; 
     }
       

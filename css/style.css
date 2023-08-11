@@ -86,6 +86,33 @@ h1 {
   counter-increment: item-counter;
 
 }
+/*.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}*/
+
+.refresh-game .tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: #2c2c2c;
+/*  opacity:0.5;*/
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 13px;
+  font-family: 'Arvo', monospace;
+  /* Position the tooltip */
+  position: absolute;
+/*  z-index: 1;*/
+}
+
+
+.refresh-game:hover .tooltiptext {
+  visibility: visible;
+}
+
   .item:after {
     content: '';
     background-color: black;
@@ -98,7 +125,7 @@ h1 {
   
   
   .item__details {
-    position: relative;
+/*    position: relative;*/
     z-index: 1;
     padding: 8px;
     color: #444;
@@ -117,6 +144,18 @@ h1 {
     z-index: 9999;
     cursor: pointer;
   }
+
+.refresh-game{
+    position: relative;
+    color:black;
+    /* width: 50px; */
+/*    height: 50px;
+    bottom: -53px;*/
+
+    z-index: 9999;
+    cursor: pointer;
+  }
+
   .item__count:before {
     content: counter(item-counter);
   }
