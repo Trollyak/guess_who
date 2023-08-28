@@ -303,6 +303,9 @@ d3.csv('data/data.csv').then(data=>{
             else if (g['name'] === "Оценить"){
                 window.open(g['url'], '_blank').focus();
             }
+            else if (g['name'] === "Помочь проекту"){
+                window.open(document.location.origin+document.location.pathname+g['url'], '_blank').focus();
+            }
             else{
                 let code = update_seed(g['index_world']);
                 console.log(g['index_world']);
