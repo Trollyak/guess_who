@@ -3,9 +3,9 @@ var seed = 1;
 const seed_chars = '123456789QWERTYUIOPASDFGHJKLZXCVBNM';
 const magic = [29, 23, 11, 19, 17];
 
-d3.select('p')
-    .attr('class', 'message')
-    .text('Добро пожаловать в игру — аналог настольной. Свяжись со своим оппонентом, вместе выберите мир, загадайте своих персонажей. Вам предстоит отгадывать персонажа противника, задавая односложные вопросы. Исключайте неподходящих персонажей, кликая по ним. Выигрывает тот, кто быстрее отгадает персонажа!\n');
+// d3.select('p')
+//     .attr('class', 'message')
+//     .text('');
 
 function random() {
     var x = Math.sin(seed++) * 10000;
@@ -57,8 +57,8 @@ d3.csv('data/data.csv').then(data=>{
       for(let i = 0; i < dataGame.length; i++)
         sorted_items.push([random(), i]);
       sorted_items.sort();
-
-      let results = []
+      
+      let results = []      
       for(let i=0;i<24;i++) {
         try{
             results.push(dataGame[sorted_items[i][1]]);
@@ -237,8 +237,9 @@ d3.csv('data/data.csv').then(data=>{
     }
       
     
-    if (!document.location.href)
+    if (!document.location.href){
         document.location.href+='#Все'
+    }
     
     let hash = document.location.hash.slice(1);
     let game = parse_code(hash);
@@ -252,6 +253,12 @@ d3.csv('data/data.csv').then(data=>{
         const dataChoice = d3.nest().key(d=>d.name).rollup(d=>d[0]).entries(data).map(d=>d.value);
         
         dataGroups = d3.nest().key(d=>d.group).rollup(d=>d[0]).entries(dataChoice).map(d=>d.value)
+        
+        // function getSizeGroup(group){
+        //     if(world['index_world']!=0){
+        //         return " ("+data.filter(d=>d['group']==group['group']).key(d=>d.name).length+")";
+        // }
+
         d3.select('p').append('nav').attr('id', 'primary_nav_wrap');
         d3.select('nav').append('ul');
         d3.select('ul').selectAll('li').data(dataGroups).enter()
@@ -261,6 +268,15 @@ d3.csv('data/data.csv').then(data=>{
             .text(d => d['group'])
             .on('click', filterGame);
         
+        function getSizeWorld(world){
+            if(world['index_world']!=0){
+                return " ("+data.filter(d=>d['name']==world['name']).length+")";
+            }
+            else{
+                return "";
+            }
+        }
+
         function filterGame(g){
             d3.selectAll('a').style('background', '');
             
@@ -288,10 +304,11 @@ d3.csv('data/data.csv').then(data=>{
                     .style('background-position', "top")
                     .on('click', clickGame);
             }
+
             grid.selectAll("div")
                 .append("div")
                 .attr('class', 'item__details')
-                .text(d => d['name']);
+                .text(d => d['name']+getSizeWorld(d));
         }
 
         filterGame(dataGroups[0]);
@@ -314,8 +331,9 @@ d3.csv('data/data.csv').then(data=>{
                 
                 let results = prepare_game(_seed);
                 
-                document.location.href = document.location.origin+document.location.pathname+'#'+code;
-                start_game(results, document.location.href, results[1])
+                document.location.href = document.location.origin+document.location.pathname+'/'+'#'+code;
+                console.log(document.location.href);
+                start_game(results, document.location.href, results[1]);
             }       
         };
     }
