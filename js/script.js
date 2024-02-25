@@ -74,8 +74,9 @@ d3.csv('data/data.csv').then(data=>{
     function start_game(results, href){
         let data = results[0];
         const name = results[1];
-        console.log('data: '+data)
-
+        // console.log('data: '+data)
+        d3.select('title').text(name);
+        
         d3.select('i[class="fa fa-arrow-left"]').remove();
         d3.select('p').remove();
         d3.selectAll('.item').remove();
