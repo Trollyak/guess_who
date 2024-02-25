@@ -331,7 +331,7 @@ d3.csv('data/data.csv').then(data=>{
                 
                 let results = prepare_game(_seed);
                 
-                document.location.href = document.location.origin+document.location.pathname+'/'+'#'+code;
+                document.location.href = document.location.origin+document.location.pathname+'#'+code;
                 console.log(document.location.href);
                 start_game(results, document.location.href, results[1]);
             }       
