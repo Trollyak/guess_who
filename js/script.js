@@ -48,7 +48,7 @@ function parse_code(_seed) {
 }
 
 d3.csv('data/data.csv').then(data=>{
-    const dataAll = d3.nest().key(d=>d.index).rollup(d=>d[0]).entries(data).map(d=>d.value);
+    const dataAll = d3.nest().key(d=>d.index).rollup(d=>d[0]).entries(data).map(d=>d.value);  
 
     function prepare_game(_seed) {
       seed = _seed.seed;
@@ -220,7 +220,7 @@ d3.csv('data/data.csv').then(data=>{
             let hash = document.location.hash.slice(1);
             let game = parse_code(hash);
             let results = prepare_game(game);
-            start_game(results, document.location.href);
+            start_game(results, document.location.href+'?name='+results[1]);
         }; 
 
         function refresh_game(g){
@@ -231,12 +231,11 @@ d3.csv('data/data.csv').then(data=>{
             
             let results = prepare_game(_seed);
             
-            document.location.href = document.location.origin+document.location.pathname+'#'+code;
-            start_game(results, document.location.href, results[1])
+            document.location.href = document.location.origin+document.location.pathname+'#'+code+'?name='+results[1];
+            start_game(results, document.location.href);
         }; 
     }
       
-    
     if (!document.location.href){
         document.location.href+='#Все'
     }
@@ -247,6 +246,7 @@ d3.csv('data/data.csv').then(data=>{
 
     if(game){
         let results = prepare_game(game);
+        document.location.href+='?name='+results[1];
         start_game(results, document.location.href);
     }
     else{
@@ -331,9 +331,8 @@ d3.csv('data/data.csv').then(data=>{
                 
                 let results = prepare_game(_seed);
                 
-                document.location.href = document.location.origin+document.location.pathname+'#'+code;
-                console.log(document.location.href);
-                start_game(results, document.location.href, results[1]);
+                document.location.href = document.location.origin+document.location.pathname+'#'+code+'?name='+results[1];
+                start_game(results, document.location.href);
             }       
         };
     }
