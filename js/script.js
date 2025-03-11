@@ -221,7 +221,7 @@ d3.csv('data/data.csv').then(data=>{
             let hash = document.location.hash.slice(1);
             let game = parse_code(hash);
             let results = prepare_game(game);
-            start_game(results, document.location.href+'?name='+results[1]);
+            start_game(results, document.location.href);
         }; 
 
         function refresh_game(g){
@@ -232,7 +232,7 @@ d3.csv('data/data.csv').then(data=>{
             
             let results = prepare_game(_seed);
             
-            document.location.href = document.location.origin+document.location.pathname+'#'+code+'?name='+results[1];
+            document.location.href = document.location.origin+document.location.pathname+'?name='+results[1]+'#'+code;
             start_game(results, document.location.href);
         }; 
     }
@@ -247,7 +247,7 @@ d3.csv('data/data.csv').then(data=>{
 
     if(game){
         let results = prepare_game(game);
-        document.location.href+='?name='+results[1];
+        // document.location.href+='?name='+results[1];
         start_game(results, document.location.href);
     }
     else{
@@ -331,8 +331,8 @@ d3.csv('data/data.csv').then(data=>{
                 let seed = _seed.seed;
                 
                 let results = prepare_game(_seed);
-                
-                document.location.href = document.location.origin+document.location.pathname+'#'+code+'?name='+results[1];
+
+                document.location.href = document.location.origin+document.location.pathname+'?name='+results[1]+'#'+code;
                 start_game(results, document.location.href);
             }       
         };
