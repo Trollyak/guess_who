@@ -86,15 +86,17 @@ h1 {
   counter-increment: item-counter;
 
 }
-/*.tooltip {
+.tooltiptext{
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
-}*/
+}
 
 .refresh-game .tooltiptext {
   visibility: hidden;
-  width: 130px;
+  width: 100px;
+  left:-5em;
+  bottom: -3em;
   background-color: #2c2c2c;
 /*  opacity:0.5;*/
   color: #fff;
