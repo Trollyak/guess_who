@@ -84,9 +84,11 @@ d3.csv('data/data.csv').then(data=>{
         d3.select('.item__hero').remove();
         d3.select('.refresh-game').remove();
 
-        d3.select('span').append('i').attr('class', 'fa fa-arrow-left').on('click', function(){
+        d3.select('span[name="main"]').on('click', function(){
             document.location.href = document.location.origin+document.location.pathname;
-        });
+        })
+        d3.select('span[name="back"]').append('i').attr('class', 'fa fa-arrow-left');
+
         d3.select('span[name="game"]').text(" (" + name+")").datum(data[0]['index_world'])
             .append("i")
             .attr('class', 'fa fa-refresh refresh-game fa-fw')
