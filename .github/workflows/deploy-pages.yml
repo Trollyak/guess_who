@@ -35,11 +35,14 @@ jobs:
             measurementId: "${{ secrets.FIREBASE_MEASUREMENT_ID }}"
           };
           EOF
+      - name: Inject inline Firebase config fallback
+        run: |
+          sed -i "/<script src=\"js\/firebase-config.js\"><\\/script>/a \\n<script>window.FIREBASE_CONFIG=window.FIREBASE_CONFIG||{apiKey:'${{ secrets.FIREBASE_API_KEY }}',authDomain:'${{ secrets.FIREBASE_AUTH_DOMAIN }}',projectId:'${{ secrets.FIREBASE_PROJECT_ID }}',storageBucket:'${{ secrets.FIREBASE_STORAGE_BUCKET }}',messagingSenderId:'${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}',appId:'${{ secrets.FIREBASE_APP_ID }}',measurementId:'${{ secrets.FIREBASE_MEASUREMENT_ID }}'};<\\/script>" index.html
       - name: Show generated config
         run: |
           echo "Listing root:" && ls -la
           echo "Listing js:" && ls -la js || true
-          echo "Config content:" && sed -n '1,120p' js/firebase-config.js
+          echo "Config present:" && test -f js/firebase-config.js && echo OK || echo MISSING
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
