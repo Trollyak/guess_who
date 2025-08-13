@@ -8,6 +8,8 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://use.fontawesome.com/ff9a572a50.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript" >
      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -32,6 +34,7 @@
   <h1 style = "float:left;display:block;">Угадай кто?<span name = 'game'></span><span name="count"></span></h1>
   <h1 style = "margin:0 0 0.5em 0; display:block; float:right"> 
     <a name = 'home' href = './'><span name = 'back'></span></a>
+    <span name="world"></span>
     <span name="clear"></span>
     <!-- <span name="play"></span> -->
   </h1>
@@ -47,6 +50,8 @@
   <div class="share-url"></div>
   <div id = 'hero'></div>
   <div id = 'game' class="grid">
+    <script src="js/firebase-config.js"></script>
+    <script src="js/firebase.js"></script>
     <script src="js/script_v3.js">   
     </script>
   </div>

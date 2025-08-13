@@ -48,6 +48,15 @@ function parse_code(_seed) {
 }
 
 const home = document.location.origin+document.location.pathname;
+const isRealtime = (window.Realtime && window.Realtime.init());
+const urlParams = new URLSearchParams(window.location.search);
+let roomId = isRealtime ? urlParams.get('room') : null;
+function randomSeed(){ return Math.floor(Math.random() * 2147483647); }
+function setRoomParam(newId){
+  const url = new URL(document.location.href);
+  url.searchParams.set('room', newId);
+  history.replaceState({}, '', url.toString());
+}
 
 d3.csv('data/worlds.csv').then(worlds=>{
 
@@ -226,6 +235,11 @@ d3.csv('data/worlds.csv').then(worlds=>{
             }; 
 
             function refresh_game(g){
+                if (isRealtime && roomId){
+                    const newSeed = randomSeed();
+                    window.Realtime.updateRoom(roomId, { seed: newSeed });
+                    return;
+                }
                 let code = update_seed(g);
                 console.log(g);
                 let _seed = parse_code(local_seed);
@@ -244,15 +258,24 @@ d3.csv('data/worlds.csv').then(worlds=>{
         }
         
         let hash = document.location.hash.slice(1);
-        let game = parse_code(hash);
-        console.log(hash, game);
-
-        if(game){
-            let results = prepare_game(game);
-            // document.location.href+='?name='+results[1];
-            start_game(results, document.location.href);
-        }
-        else{
+        if (isRealtime && roomId){
+            window.Realtime.ensureRoom(roomId, { dataset: 1, seed: randomSeed(), name: worlds.filter(w=>Number(w['index_world'])===1)[0]['name'] })
+              .then(()=>{
+                window.Realtime.onRoomSnapshot(roomId, state => {
+                    if (!state || state.dataset == null || state.seed == null) return;
+                    const _st = { dataset: Number(state.dataset), seed: Number(state.seed) };
+                    const results = prepare_game(_st);
+                    start_game(results, document.location.href);
+                });
+              });
+        } else {
+            let game = parse_code(hash);
+            console.log(hash, game);
+            if(game){
+                let results = prepare_game(game);
+                start_game(results, document.location.href);
+            }
+            else{
             // const dataChoice = d3.nest().key(d=>d.name).rollup(d=>d[0]).entries(data).map(d=>d.value);
             
             dataGroups = d3.nest().key(d=>d.group).rollup(d=>d[0]).entries(worlds).map(d=>d.value['group'])
@@ -326,6 +349,30 @@ d3.csv('data/worlds.csv').then(worlds=>{
                     window.open(home+'form.html', '_self').focus();
                 }
                 else{
+                    if (isRealtime){
+                        if (!roomId){
+                            const newId = Math.random().toString(36).slice(2,10).toUpperCase();
+                            setRoomParam(newId);
+                            roomId = newId;
+                            const init = { dataset: g['index_world'], seed: randomSeed(), name: g['name'] };
+                            window.Realtime.ensureRoom(roomId, init)
+                              .then(()=> {
+                                // subscribe immediately so room renders
+                                window.Realtime.onRoomSnapshot(roomId, state => {
+                                    if (!state || state.dataset == null || state.seed == null) return;
+                                    const _st = { dataset: Number(state.dataset), seed: Number(state.seed) };
+                                    const results = prepare_game(_st);
+                                    start_game(results, document.location.href);
+                                });
+                                return window.Realtime.updateRoom(roomId, init);
+                              });
+                            return;
+                        } else {
+                            const init = { dataset: g['index_world'], seed: randomSeed(), name: g['name'] };
+                            window.Realtime.updateRoom(roomId, init);
+                            return;
+                        }
+                    }
                     let code = update_seed(g['index_world']);
 
                     console.log(g['index_world']);
@@ -337,6 +384,7 @@ d3.csv('data/worlds.csv').then(worlds=>{
                     document.location.href = home+'?name='+results[1]+'#'+code;
                     start_game(results, document.location.href);
                 }       
+            }
             }
         }
     });
