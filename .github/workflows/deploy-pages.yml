@@ -33,6 +33,11 @@ jobs:
             measurementId: "${{ secrets.FIREBASE_MEASUREMENT_ID }}"
           };
           EOF
+      - name: Show generated config
+        run: |
+          echo "Listing root:" && ls -la
+          echo "Listing js:" && ls -la js || true
+          echo "Config content:" && sed -n '1,120p' js/firebase-config.js
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
