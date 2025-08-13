@@ -35,13 +35,14 @@ jobs:
             measurementId: "${{ secrets.FIREBASE_MEASUREMENT_ID }}"
           };
           EOF
-      - name: Replace external config include with inline config
+      - name: Insert inline config before firebase.js
         run: |
-          sed -i 's|<script src="js/firebase-config.js"></script>|<script>window.FIREBASE_CONFIG={apiKey:"${{ secrets.FIREBASE_API_KEY }}",authDomain:"${{ secrets.FIREBASE_AUTH_DOMAIN }}",projectId:"${{ secrets.FIREBASE_PROJECT_ID }}",storageBucket:"${{ secrets.FIREBASE_STORAGE_BUCKET }}",messagingSenderId:"${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}",appId:"${{ secrets.FIREBASE_APP_ID }}",measurementId:"${{ secrets.FIREBASE_MEASUREMENT_ID }}"};</script>|' index.html
-      - name: Show generated config and index snippet
+          sed -i '/<script src="js\/firebase.js"><\/script>/{i \
+<script>window.FIREBASE_CONFIG={apiKey:"${{ secrets.FIREBASE_API_KEY }}",authDomain:"${{ secrets.FIREBASE_AUTH_DOMAIN }}",projectId:"${{ secrets.FIREBASE_PROJECT_ID }}",storageBucket:"${{ secrets.FIREBASE_STORAGE_BUCKET }}",messagingSenderId:"${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}",appId:"${{ secrets.FIREBASE_APP_ID }}",measurementId:"${{ secrets.FIREBASE_MEASUREMENT_ID }}"};<\/script>
+}' index.html
+      - name: Show index snippet around firebase.js
         run: |
-          echo "Listing js:" && ls -la js || true
-          echo "Index snippet around config:" && awk 'f{print} /firebase-config/ && !f{print; for(i=0;i<5;i++){getline; print} f=1}' index.html || true
+          awk 'f{print NR":"$0; if(++c==8) exit} /js\/firebase.js/ && !f{for(i=NR-5;i<=NR;i++){print i":"line[i]} f=1} {line[NR]=$0; if(NR>8) delete line[NR-8]}' index.html || true
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
